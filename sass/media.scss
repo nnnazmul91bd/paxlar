@@ -1,0 +1,289 @@
+@media (max-width: 1199px){
+	.top_header a{
+		font-size: 12px;
+	}
+	header{
+		.main_btn{
+			    padding: 12px 20px;
+    			font-size: 14px;
+    
+		}
+		 ul li a{
+		 	font-size: 14px;
+		 }
+	}
+
+	.services_section .services_btn a{
+		padding: 10px 20px;
+	}
+	
+	.customer_comment i{
+		bottom: 55%;
+    	left: 52%;
+	}
+	.customer_comment .d-block {
+    	transform: translateX(180%);
+	}
+	
+	.footer_content{
+		margin-top: 60px;
+	}
+/******** steps_section *************/	
+	.steps_section .steps_heading h1{
+		font-size: 22px;
+	}
+/******** our_expart_section *************/
+	.our_expart_section .expart_content img{
+		width: 220px;
+	}
+/******** footer footer *************/
+	footer{
+		.icon_content a{
+		display: block;
+		margin: 0;
+		font-size: 13px;
+	}
+	.top_footer .footer_nav .nav-link a{
+			margin-right: 16px;
+			padding: 8px;
+
+		}
+		.footer_content h4{
+				margin: 0;
+			}
+	.down_footer_nav ul li a{
+		font-size: 12px;
+	}
+	 .footer_icon{
+		font-size: 20px;
+	}
+}
+
+
+}
+
+
+
+
+/******** media css for tablet devices  *************/
+@media (max-width: 991px){
+
+	header  {
+		padding: 10 0;
+		.main_btn{
+			 display: flex;
+		    width: 149px;
+		    justify-content: center;
+		    margin: auto;
+		}
+		.navbar-toggler:focus {
+  
+    		box-shadow: 0 0 0 2px #f78f2f;
+}   
+}
+/******** banner_section *************/
+.banner_section .banner_position h1{
+	font-size: 46px;
+}
+.services_section .services_btn{
+	 margin: 50px auto;
+	 a{
+	 	 padding: 10px 9px;
+		 font-size: 12px;
+		 font-weight: 500;
+	 }
+   
+}
+/******** our_blog_section *************/
+.our_blog_section{
+	.blog_img{
+	margin-top: 60px;
+}
+.for_margin .blog_content{
+	   transition: all 0.3s linear;
+	   &:hover{
+	   		box-shadow:  0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+	   }
+}
+.for_margin .blog_content_2{
+	box-shadow: none;
+	transition: all 0.3s linear;
+	&:hover{
+		box-shadow:  0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+	}
+}
+
+
+}
+/******** customer_comment *************/
+.customer_comment .d-block {
+    transform: translateX(130%);
+}
+.customer_comment i {
+    bottom: 55%;
+    left: 54%;
+}
+/******** steps_section *************/
+.steps_section{
+	.steps_img{
+	padding-top: 223px;
+	.img_absulute{
+		 left: 14%;
+    	 top: 70%;
+	}
+}
+.steps_heading h1 {
+    font-size: 20px;
+    max-width: 260px;
+    line-height: 30px;
+}
+.left_img .step_round {
+    width: 50px;
+    height: 50px;
+   
+}
+.side_content_ofsteps h3 {
+    font-size: 16px;
+
+}
+.side_content_ofsteps {
+    padding-bottom: 35px;
+}
+
+} 
+/****************** footer **********/
+footer {
+	.down_footer_nav{
+		ul{
+			li{
+				a{
+					font-size: 12px;
+					padding: 0 5px;
+				}
+			}
+		}
+	}
+} 
+
+
+}
+
+/********* media css for mobile ************/
+@media (max-width: 767px){
+	.top_header{
+		.price{
+			display: none;
+		}
+	}
+
+/*************** banner_section ************/
+	.banner_section{
+		height: 60vh;
+		.banner_heading{
+			color: red;
+			h1{
+				
+				padding-bottom: 15px;
+			    font-size: 45px;
+			    max-width: 400px;
+			    margin: auto;
+			}
+		}
+		.middle_content_of_banner{
+			display: none;
+		}
+		.btn_banner{
+		    margin-top: 40px;
+		    padding: 10px 15px;
+		    font-size: 15px;
+	}
+	}
+/*********** services_section ************/
+.services_section{
+	.services_btn {
+    margin: 40px auto;
+    a{
+    	padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    }
+}
+.services_content {
+    
+    padding: 0 100px;
+   
+}
+
+} 
+/******** steps_section ***********/
+.steps_section{
+	.for_sm_center{
+		text-align: -webkit-center;
+		.side_content_ofsteps{
+			max-width: 400px;
+    		margin: auto;
+		}
+	}
+	.steps_heading{
+		h1{
+			max-width: 100%;
+		}
+	} 
+	.steps_heading::after {
+    width: 100px;
+    transform: translateX(-50%);
+}
+	.steps_img {
+    padding-top: 88px;
+    display: none;
+    .img_absulute {
+    left: 24%;
+    top: 58%;
+    display: none;
+}
+
+}
+
+}
+/******** counter section is here ********/
+.counter_section {
+    padding: 50px 0;
+   
+}
+/***********our blog section is here *********/
+.our_blog_section{
+	.for_margin {
+	    margin-top: 60px;
+	    padding: 0 100px;
+	}
+	.for_margin {
+   
+    padding: 0 100px;
+}
+
+}
+
+/************** feed back section is here *********/
+.customer_comment .d-block {
+    transform: translateX(87%);
+}
+.customer_comment i {
+    bottom: 55%;
+    left: 56%;
+}
+/************ footer section ***********/
+footer{
+	.copyright{
+		text-align: center;
+		padding-top: 12px;
+	}
+	.down_footer_nav {
+    padding: 10px 0;
+}
+
+} 
+
+
+
+
+}
